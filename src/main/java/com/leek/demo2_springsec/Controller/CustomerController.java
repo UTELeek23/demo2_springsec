@@ -18,7 +18,7 @@ public class CustomerController {
             Customer.builder().id("2").name("Jane Doe").email("Jane@mail.com").phone("0987654321").build()
     );
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public ResponseEntity<String> hello() {
         return ResponseEntity.ok("Hello World");
     }
